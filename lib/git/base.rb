@@ -91,6 +91,9 @@ module Git
       @index
     end
     
+    def mv(file1, file2)
+      self.lib.mv(file1,file2)
+    end
     
     def set_working(work_dir, check = true)
       @lib = nil
