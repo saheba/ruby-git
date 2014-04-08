@@ -2,6 +2,18 @@
 
 Library for using Git in Ruby.
 
+## Branch: multiple_merges
+This is a branch which merges multiple enhancements on top of the latest schacon/ruby-git-master.
+
+### Install multi_merges version
+```ruby
+     git clone https://github.com/saheba/ruby-git.git
+     cd ruby-git
+     git checkout multi_merges
+     gem build git.gemspec
+     gem install ./git-1-2.6.2.gem 
+```
+
 ## Homepage
 
 Git public hosting of the project source code is at:
